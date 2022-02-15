@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+
+<html lang="ja">
+
+<head>
+    <title>Sai | 作成したもの</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- cssへのリンク -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Noto+Sans+JP:400,700&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <!-- 顶部 -->
+    <header class="header">
+        <div class="header_bg">
+            <div class="header_cat">
+                <div class="header_logo">
+                    <a href="index.html">★自己紹介ページ</a>
+                </div>
+                <input type="checkbox" id="hamburger">
+                <label for="hamburger">
+					<span class="hamburger_icon">
+						<i></i>
+						<i></i>
+						<i></i>
+					</span>
+				</label>
+                <nav class="header_navi">
+                    <div class="header_navi_wrap">
+                        <ul class="header_navi_list">
+                            <li class="header_navi_item"><a href="study.html"><span>大学での勉強</span></a></li>
+                            <li class="header_navi_item"><a href="works.html"><span>作成したもの</span></a></li>
+                            <li class="header_navi_item"><a href="contact.html"><span>コンタクト</span></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- プロフィール -->
+        <section class="profile">
+            <div class="profile_inner">
+                <div class="profile_cat">
+
+                    <div class="profile_img">
+                        <img src="img/xh.png" alt="">
+                    </div>
+
+                    <div class="profile_data">
+                        <div class="profile_name">
+                            <p>SAI AKIKI</p>
+                            <a href="https://github.com/akikisai"><img src="img/github.png" alt=""></a>
+                        </div>
+                        <div class="profile_text">
+                            <p>ウェブページを作りました。</p>
+                            <p>本ウェブページのコードのソースコードや、作成したものをgithubにまとめています！</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+        <!-- メインコンテンツエリア -->
+        <section class="mainContent">
+
+
+
+
+            <!-- コンタクト -->
+            <section class="contact">
+                <div class="mainContent_inner">
+                    <h2 class="mainContent_title">コンタクト</h2>
+                </div>
+
+                <div class="contact-wrapper">
+                    <div class="contact-inner">
+
+                        <form id="contact_form" method=post id=mailForm>
+                            <ul class="form-list">
+
+
+                                <li class="form-item">
+                                    <div class="form-item-title">
+                                        <label>問い合わせタイトル</label>
+                                        <span class="required">必須</span>
+                                    </div>
+                                    <input type="text" class="text-box" name="subject" required>
+                                </li>
+                                <li class="form-item">
+                                    <div class="form-item-title">
+                                        <label>メールアドレス</label>
+                                        <span class="required">必須</span>
+                                    </div>
+                                    <input type="email" class="text-box" name="email" required>
+                                </li>
+                                <li class="form-item">
+                                    <div class="form-item-title">
+                                        <label>本文</label>
+                                        <span class="required">必須</span>
+                                    </div>
+                                    <textarea cols="30" rows="10" name="body" class="textarea" required></textarea>
+                                </li>
+                            </ul>
+
+
+                            <div class="btn-wrapper">
+                                <button type="submit" id="button" class="submit-btn">送信する</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </section>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <small>©︎ 2022 SAI AKIKI(19EC043)</small>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+    <script src="js/function.js"></script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
