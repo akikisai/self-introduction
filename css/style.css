@@ -563,6 +563,15 @@ body {
     margin-bottom: 15px;
 }
 
+.article_inner {
+    display: inline-block;
+    line-height: 2;
+}
+
+.article_inner p {
+    margin-bottom: 30px;
+}
+
 
 /* 作ったもの*/
 
